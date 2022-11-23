@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cp</groupId>
-    <artifactId>springboot_19_message</artifactId>
+    <artifactId>spring-boot_reggie</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -93,6 +93,12 @@
             <groupId>com.github.qcloudsms</groupId>
             <artifactId>qcloudsms</artifactId>
             <version>1.0.6</version>
+        </dependency>
+
+        <!--thymeleaf-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
 
